@@ -116,7 +116,7 @@ void printLinkedList(Node head) {
     }
     cout<<"NULL"<<endl;
 }
-
+// in case of a doubly linkedlist
 bool detectLoop(Node head) {
     Node slow = head, fast = head;
     while (fast && fast->next) {
